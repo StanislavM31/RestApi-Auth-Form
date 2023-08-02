@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  line-height: normal;
+}
+
+.login-form, .registration-form  {
+  width: 400px;
+ /*  height: 400px; */
+  border-radius: 10px;
+  background-color: #121212;
+  align-items: center;
+}
+.email-input, .password-input, .reg-username-input, .reg-email-input, .reg-pwd-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login, .registration {
+  color: #fff;
+  font: 700 44 Inter;
+  text-align: center;
+  padding: 30px 0;
+}
+input {
+  background-color: #121212;
+  border-radius: 20px;
+  border-color: #bb86fc;
+  color: #FFFF;
+}
+
+.email-input input {
+  width: 352px;
+  padding: 10px;
+}
+.password-input{
+    margin-top: 10px;
+}
+.password-input input,
+.reg-username-input input,
+.reg-email-input input,
+.reg-pwd-input input {
+  width: 352px;
+  padding: 10px;
+}
+.btn-reg, .btn-login {
+  width: 153px;
+  height: 38px;
+  padding: 10px 0;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 20px;
+  background: #bb86fc;
+}
